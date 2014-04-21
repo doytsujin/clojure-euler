@@ -76,7 +76,7 @@
     )))
 
 (apply max (for [fun [order-horizontal order-vertical order-downleft order-downright]]
-             (find-product (fun grid))))
+             (find-product (fun grid)))) ; 70600674
 
 ;The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 
